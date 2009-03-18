@@ -1,0 +1,14 @@
+History.txt
+Manifest.txt
+PostInstall.txt
+README.rdoc
+Rakefile
+lib/g_form_submit_protector.rb
+lib/g_form_submit_protector/view_helpers.rb
+script/console
+script/destroy
+script/generate
+spec/g_form_submit_protector_spec.rb
+spec/spec.opts
+spec/spec_helper.rb
+tasks/rspec.rake
