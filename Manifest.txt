@@ -3,8 +3,14 @@ Manifest.txt
 PostInstall.txt
 README.rdoc
 Rakefile
+g_form_submit_protector.gemspec
 lib/g_form_submit_protector.rb
 lib/g_form_submit_protector/view_helpers.rb
+rails_generators/form_submit_protector_assets/form_submit_protector_assets_generator.rb
+rails_generators/form_submit_protector_assets/templates/guilded.form_submit_protector.js
+rails_generators/form_submit_protector_assets/templates/guilded.form_submit_protector.min.js
+rails_generators/form_submit_protector_assets/templates/jquery-disable_on_submit-1.0.js
+rails_generators/form_submit_protector_assets/templates/jquery-disable_on_submit-1.0.min.js
 script/console
 script/destroy
 script/generate

@@ -1,32 +1,45 @@
 = g_form_submit_protector
 
-* FIX (url)
+http://github.com/midas/g_form_submit_protector/tree/master
+
 
 == DESCRIPTION:
 
-FIX (describe your package)
+A Rails Guilded (http://github.com/midas/guilded/tree/master) component that will disable form elements once the
+submit button has been used.
+
 
 == FEATURES/PROBLEMS:
 
-* FIX (list of features or problems)
+* Disables the form submission button once the form is submitted
+* Can implement callback to determine if the disabling should occur (this will help integrate with other form plugins, etc)
 
-== SYNOPSIS:
 
-  FIX (code sample of usage)
+== USAGE:
+
+	<% g_form_submit_protector :form_class => 'itemForm'  %>
+
 
 == REQUIREMENTS:
 
-* FIX (list of requirements)
+* Rails >= 2.2.0
+* Guilded >= 0.1.4 (http://github.com/midas/guilded/tree/master)
+
 
 == INSTALL:
 
-* FIX (sudo gem install, anything else)
+  sudo gem install midas-form_submit_protector
+
+In rails environment.rb file:
+
+  config.gem 'midas-g_form_submit_protector', :version => "1.0.0", :lib => 'g_form_submit_protector', :source => 'http://gems.github.com'
+	
 
 == LICENSE:
 
 (The MIT License)
 
-Copyright (c) 2009 FIXME full name
+Copyright (c) 2009 C. Jason Harrelson (midas)
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
