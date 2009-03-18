@@ -9,7 +9,7 @@ A Rails Guilded (http://github.com/midas/guilded/tree/master) component that wil
 submit button has been used.
 
 
-== FEATURES/PROBLEMS:
+== FEATURES:
 
 * Disables the form submission button once the form is submitted
 * Can implement callback to determine if the disabling should occur (this will help integrate with other form plugins, etc)
@@ -28,7 +28,7 @@ submit button has been used.
 
 == INSTALL:
 
-  sudo gem install midas-form_submit_protector
+  sudo gem install midas-g_form_submit_protector
 
 In rails environment.rb file:
 
