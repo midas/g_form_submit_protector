@@ -17,7 +17,7 @@ submit button has been used.
 
 == USAGE:
 
-	<% g_form_submit_protector :form_class => 'itemForm'  %>
+  <% g_form_submit_protector :form_class => 'itemForm'  %>
 
 
 == REQUIREMENTS:
