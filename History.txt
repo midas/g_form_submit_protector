@@ -1,3 +1,8 @@
+== 1.0.0 2009-03-21
+
+* Fixed bug with not including view_helpers file
+
+
 == 1.0.0 2009-03-17
 
-  * Initial release
+* Initial release

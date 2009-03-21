@@ -32,7 +32,7 @@ submit button has been used.
 
 In rails environment.rb file:
 
-  config.gem 'midas-g_form_submit_protector', :version => "1.0.0", :lib => 'g_form_submit_protector', :source => 'http://gems.github.com'
+  config.gem 'midas-g_form_submit_protector', :version => "1.0.1", :lib => 'g_form_submit_protector', :source => 'http://gems.github.com'
 	
 
 == LICENSE:
