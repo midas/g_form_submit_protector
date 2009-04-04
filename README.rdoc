@@ -34,7 +34,11 @@ In rails environment.rb file:
 
   config.gem 'midas-g_form_submit_protector', :version => "1.0.1", :lib => 'g_form_submit_protector', :source => 'http://gems.github.com'
 	
+Generate:
 
+  script/generate form_submit_protector_assets
+	
+	
 == LICENSE:
 
 (The MIT License)
