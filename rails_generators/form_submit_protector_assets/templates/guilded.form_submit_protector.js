@@ -15,7 +15,7 @@ g.formSubmitProtectorInit = function( options )
 	if( g.doFormSubmitProtector )
 		options['should_inactivate'] = g.doFormSubmitProtector;
 	
-	$jc( options.form_class ).disableOnSubmit( options );
+	$j( options.selector ).disableOnSubmit( options );
 
 	if( g.afterFormSubmitProtectorInit )
 	{

@@ -4,7 +4,7 @@ $:.unshift(File.dirname(__FILE__)) unless
 require 'g_form_submit_protector/view_helpers'
 
 module GFormSubmitProtector
-  VERSION = '1.0.1'
+  VERSION = '1.0.2'
 end
 
 if defined?( ActionView::Base )

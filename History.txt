@@ -1,4 +1,9 @@
-== 1.0.0 2009-03-21
+== 1.0.2 2009-08-13
+
+* Changed :form_class option to be :selector so that any jquery selector can be used, including multiple selectors
+* Added :all shortcut for the selector option which extrapolates out to 'form', :selector => :all = :selector => 'form'
+
+== 1.0.1 2009-03-21
 
 * Fixed bug with not including view_helpers file
 

@@ -17,7 +17,17 @@ submit button has been used.
 
 == USAGE:
 
-  <% g_form_submit_protector :form_class => 'itemForm'  %>
+To protect all forms:
+
+  <% g_form_submit_protector :selector => :all  %>
+
+To protect a specific form use any selector that jQuery supports:
+
+  <% g_form_submit_protector :selector => '.protectedForm'  %>
+
+You can even use multiple selectors:
+
+  <% g_form_submit_protector :selector => '.protectedForm,#anotherform'  %>
 
 
 == REQUIREMENTS:
