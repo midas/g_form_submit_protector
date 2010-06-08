@@ -15,6 +15,37 @@ submit button has been used.
 * Can implement callback to determine if the disabling should occur (this will help integrate with other form plugins, etc)
 
 
+== COMPATABILITY
+
+* Ruby 1.9
+* Ruby 1.8
+* Rails 3
+* Rails 2
+
+
+== INSTALL:
+
+  gem install g_form_submit_protector
+
+
+== INSTALL FOR RAILS
+
+Configure the Gem for use:
+
+  gem 'g_form_submit_protector'          # Rails 3
+  config.gem 'g_form_submit_protector'   # Rails 2
+
+Install the Gem:
+
+  bundle install         # Rails 3
+  rake gems:install      # Rails 2
+	
+Generate:
+
+  rails generate form_submit_protector     # Rails 3
+  script/generate form_submit_protector    # Rails 2
+
+
 == USAGE:
 
 To protect all forms:
@@ -33,22 +64,9 @@ You can even use multiple selectors:
 == REQUIREMENTS:
 
 * Rails >= 2.2.0
-* Guilded >= 0.1.4 (http://github.com/midas/guilded/tree/master)
+* Guilded >= 1.0.0 (http://github.com/midas/guilded/tree/master)
 
 
-== INSTALL:
-
-  sudo gem install midas-g_form_submit_protector
-
-In rails environment.rb file:
-
-  config.gem 'midas-g_form_submit_protector', :version => "1.0.1", :lib => 'g_form_submit_protector', :source => 'http://gems.github.com'
-	
-Generate:
-
-  script/generate form_submit_protector_assets
-	
-	
 == LICENSE:
 
 (The MIT License)

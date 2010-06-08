@@ -1,3 +1,9 @@
+== 1.0.3 2010-06-08
+
+* Converted to a Jeweler project.
+* Made compatible with Rails 3.
+
+
 == 1.0.2 2009-08-13
 
 * Changed :form_class option to be :selector so that any jquery selector can be used, including multiple selectors
